@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoVend | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Slab:wght@400&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Slab', serif;
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            background-color: #34495e;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            background-color: #1abc9c;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .logo a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            border-radius: 5px;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 50px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .main-content h2 {
+            font-size: 3rem;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+
+        .request-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #1abc9c;
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .request-button:hover {
+            background-color: #16a085;
+        }
+
+        footer {
+            background-color: #34495e;
+            text-align: center;
+            padding: 20px;
+            color: #ecf0f1;
+        }
+
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo"></div>
+            <a href="index.html">InnoVend LLC</a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h2>Welcome to InnoVend LLC</h2>
+        <p>We provide top-quality vending solutions, tailored to meet your business needs. Our services are reliable, cost-effective, and customized to suit your company’s unique requirements.</p>
+        <p>At InnoVend, we aim to streamline your business operations by offering the best vending experience. Whether you're looking to install a new vending machine or upgrade your existing services, we're here to help you every step of the way.</p>
+
+        <a href="https://bit.ly/innovend-service-request" class="request-button" target="_blank">Request Services</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 InnoVend LLC | <a href="mailto:hello@innovend.net">Contact Us</a></p>
+    </footer>
+    
+</body>
+</html>
