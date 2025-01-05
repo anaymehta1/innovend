@@ -70,7 +70,13 @@
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="mailto:hello@innovend.net" class="icon solid fa-envelope"><span class="label">Email</span></a></li>						</ul>
+							<li><a href="mailto:hello@innovend.net" class="icon solid fa-envelope" onclick="emailFallback()"><span class="label">Email</span></a></li>
+<script>
+    function emailFallback() {
+        alert("If the email link doesn't open, please copy and paste the email: hello@innovend.net into your email client.");
+    }
+</script>
+						</ul>
 						<ul class="copyright">
 							<li>&copy; InnoVend LLC 2025</li><li>Design: HTML5 UP</li>
 						</ul>
